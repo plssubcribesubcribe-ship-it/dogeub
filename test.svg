@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
-  <rect width="800" height="400" fill="black"/>
-  <text x="400" y="200"
-        fill="white"
-        font-size="40"
-        text-anchor="middle"
-        dominant-baseline="middle">
-    WORKING SVG
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600">
+  <rect width="100%" height="100%" fill="#111"/>
+
+  <a href="https://google.com">
+    <rect x="400" y="250" width="200" height="80" rx="10" fill="#444"/>
+    <text x="500" y="295" fill="white" text-anchor="middle">
+      Click Me
+    </text>
+  </a>
 </svg>
