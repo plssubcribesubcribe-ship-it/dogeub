@@ -1,13 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080">
   <foreignObject width="100%" height="100%">
-    <html xmlns="http://www.w3.org/1999/xhtml">
-      <body>
-        <h1>Hello</h1>
+    <div xmlns="http://www.w3.org/1999/xhtml"
+         style="
+           width:100%;
+           height:100%;
+           background:#0f172a;
+           color:white;
+           font-family:Arial;
+           display:flex;
+           align-items:center;
+           justify-content:center;
+           flex-direction:column;
+         ">
 
-        <script>
-          document.body.style.background = "black";
-        </script>
-      </body>
-    </html>
+      <h1>dogeub</h1>
+      <p>SVG webpage loaded</p>
+
+      <script>
+        console.log("loaded");
+      </script>
+
+    </div>
   </foreignObject>
 </svg>
